@@ -14,7 +14,7 @@ public class EmployeeService {
     private final ModelMapper modelMapper;
     private final RestTemplate restTemplate;
 
-    @Value("${addressservice.base.url}")
+    @Value("${address-service.base.url}")
     private String addressBaseUrl;
 
     @Autowired
